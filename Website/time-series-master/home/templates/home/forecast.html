@@ -1,0 +1,137 @@
+<div class="col s12" style=""> 
+	<div class="divider"></div>
+	<div class="section">
+		<h5>Forecasted 1 month</h5>
+
+		<span class="grey-text text-darken-2"> 
+			<blockquote>Plot below shows the mandi price, retail price and arrival amount for last 3 months along with the forecasted 1 month
+
+			</blockquote>
+		</span>
+		<br>
+		<br>
+
+		<div class="grid">
+
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field">
+					<select class="center-align" id="id_select_state1_forecast">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" selected>Maharashtra</option>
+						<option value="2">Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state2_forecast">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" >Maharashtra</option>
+						<option value="2" selected>Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 2</label>
+				</div>
+
+			</div>
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state3_forecast">
+						<option value="" disabled selected>Select state</option>
+						<option value="1">Maharashtra</option>
+						<option value="2" >Karnataka</option>
+						<option value="3" selected>NCT of Delhi</option>
+					</select>
+					<label>Select State 3</label>
+				</div>
+
+			</div>
+
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi1_forecast">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" selected>Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" >Azadpur</option>
+					</select>
+					<label>Select Mandi 1</label>
+				</div>
+
+			</div>
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi2_forecast">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1">Lasalgaon</option>
+						<option value="2" selected>Bangalore</option>
+						<option value="3">Azadpur</option>
+					</select>
+					<label>Select Mandi 2</label>
+				</div>
+			</div>
+
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi3_forecast">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" >Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" selected>Azadpur</option>
+					</select>
+					<label>Select Mandi 3</label>
+				</div>
+			</div>
+
+			<!-- mandi -->
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart11" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart21" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell right-align">
+				<canvas id="forecast_chart31" width="" height=""></canvas>
+				<button class="waves-effect waves-light btn" onclick=requestNewsModal("forecast_mandi")>See news</button>
+			</div>
+
+			<!-- retail -->
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart12" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart22" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell right-align">
+				<canvas id="forecast_chart32" width="" height=""></canvas>
+				<button class="waves-effect waves-light btn" onclick=requestNewsModal("forecast_retail")>See news</button>
+			</div>
+
+
+
+			<!-- arrival -->
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart13" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell">
+				<canvas id="forecast_chart23" width="" height=""></canvas>
+			</div>
+
+			<div class="cell chart_cell right-align">
+				<canvas id="forecast_chart33" width="" height=""></canvas>
+				<button class="waves-effect waves-light btn" onclick=requestNewsModal("forecast_arrival")>See news</button>
+			</div>
+
+
+		</div>
+
+	</div>
+</div>

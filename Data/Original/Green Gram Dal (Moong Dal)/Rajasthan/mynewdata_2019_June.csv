@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9a529fea71761367009dae860b9f14e1f777c2c36030e8419a947e0b5dc6e07
+size 233
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Sriganganagar,28/06/2019,0.5,Green Gram Dal,5400,5400,5400,
+,29/06/2019,2.4,Green Gram Dal,5455,5500,5500,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

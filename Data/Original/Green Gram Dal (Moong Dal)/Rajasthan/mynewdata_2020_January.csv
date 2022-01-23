@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd32b406616fecee040c7e9d7026d2e610ac5937c27512b960c664cd37bc86b8
+size 163
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Jaitaran,15/01/2020,7.85, ,NR,NR,NR,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

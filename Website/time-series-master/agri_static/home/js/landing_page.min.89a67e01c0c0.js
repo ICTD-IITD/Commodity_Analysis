@@ -1,0 +1,4 @@
+function requestAnomalousChart(chart_id,state_name,mandi_name,commodity_name){data={commodity_name,mandi_name,state_name}
+requestPostData("/agri_req/get_forecasted_mandi_1_month",{"data":data}).then(data=>{mandi_price=data["mandi_price_forecast"]
+date=data["date"];console.log(data);plotAnomolusChart(chart_id,date,mandi_price);});}
+function plotAnomolusChart(chart_id,date,mandi_price){var ctx=document.getElementById(chart_id).getContext('2d');s1={borderColor:"red",data:mandi_price,fill:false,pointRadius:0,};var myChart=new Chart(ctx,{type:'line',data:{labels:date,datasets:[s1],},options:{scales:{xAxes:[{type:'time',time:{parser:'YYYY-MM-DD',unit:'day',day:'MMM YY',displayFormats:{day:'MMM YY'}},ticks:{autoSkip:true,maxTicksLimit:3,maxRotation:0,minRotation:0}}],yAxes:[{ticks:{min:0,}}]},tooltips:{mode:'point'},legend:{display:false},}});}

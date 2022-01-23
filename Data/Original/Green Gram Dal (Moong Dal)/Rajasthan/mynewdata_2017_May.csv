@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:510e2a4a6aa616803e50f3a4f3adf9628d99e3df6eee3de732ba76c92e489f46
+size 189
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Bikaner (Grain),17/05/2017,11.4,Green Gram Dal,4021,4301,4161,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

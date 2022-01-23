@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:eda6bcf3ae7d66d756e3f184acb5ec1664eb079055feba7bbbd0ddb38c118428
+size 841
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Bijawar,10/07/2018,5.8,Masoor Gola,3180,3220,3200,
+Pohari,16/07/2018,1,Masur Dal,3390,3390,3390,
+Ujjain,02/07/2018,0.5,Masoor Gola,2760,2951,2811,
+,03/07/2018,1.2,Masoor Gola,2800,3071,2980,
+,04/07/2018,1,Masoor Gola,1900,3049,3001,
+,05/07/2018,0.3,Masoor Gola,2926,3019,2951,
+,06/07/2018,1.6,Masoor Gola,2925,3200,3150,
+,07/07/2018,0.1,Masoor Gola,3076,3076,3076,
+,10/07/2018,0.2,Masoor Gola,3250,3250,3250,
+,16/07/2018,0.3,Masoor Gola,3376,3574,3571,
+,17/07/2018,0.1,Masoor Gola,2915,2915,2915,
+,18/07/2018,0.8,Masoor Gola,3666,3800,3710,
+,19/07/2018,1,Masoor Gola,3150,3686,3503,
+,20/07/2018,0.1,Masoor Gola,3690,3690,3690,
+,21/07/2018,0.4,Masoor Gola,3149,3692,3399,
+,31/07/2018,0.2,Masoor Gola,1326,3681,3681,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

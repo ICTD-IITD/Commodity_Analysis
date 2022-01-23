@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/1.0.2/geojson2svg.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="//www.amcharts.com/lib/3/ammap.js"></script>
+  <script src="//www.amcharts.com/lib/3/themes/light.js"></script>
+
+  <!-- <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://www.amcharts.com/lib/4/geodata/worldIndiaLow.js"></script>
+  <script src="https://www.amcharts.com/lib/4/geodata/indiaLow.js"></script> -->
+  <title></title>
+</head>
+<body>
+  <div id="legenddiv" ></div>
+  <div style="border-style: solid;height:510px; width:510px; border-color: coral; border-width: 10px">
+    
+    <div id="chartdiv" style="height:500px; width:500px;"></div>
+  </div>
+  
+
+  <script type="text/javascript" src="{% static 'dashboard/js/test.js'%}"></script>
+</body>
+</html>

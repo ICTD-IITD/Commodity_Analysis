@@ -1,0 +1,55 @@
+district center mapping
+correlation
+
+
+seasonality:
+365/7
+
+
+predict: next 4 predict * 7
+
+website:
+ 
+
+forecasting for next 30 days:
+
+
+
+
+fourier tranfrom:
+seasoanlity? 365 or 365.somthing
+new series
+
+residual: spike
+
+High price: hoarding/weather/transport/inflation
+Mark Hoarding/weather 
+
+Low Price: No classififcation
+
+
+sarimax: exg=cpi, nbr mandi 
+
+
+
+
+Normal period: 
+pehle max-min=350
+low price me fail: 12--->5
+
+Mum/delhi/blr: onion
+kolkata/lucknow: 1.57
+
+
+anomoulus period: waether hoasrding
+
+cov 0.4 baseline
+
+
+
+
+Table in slide 4 shows the Avg. Max/Min Ratio of Anomalous Periods. First column is for High price Anomaly. 
+
+
+
+

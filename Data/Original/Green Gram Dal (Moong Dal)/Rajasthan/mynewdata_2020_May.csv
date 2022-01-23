@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:14a05be0fdce690d2ff1b02fa187449ff6393f74c4283e0affc30ba64a7ef4be
+size 164
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Pipar City,05/05/2020,2.5, ,NR,NR,NR,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

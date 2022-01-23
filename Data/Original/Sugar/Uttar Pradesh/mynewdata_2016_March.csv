@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e533d34a2de70e48a830b385baa7f523fbec05a9e1b56ab3a8940ec8a390ac7
+size 701
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Khatauli,01/03/2016,5,Chini,NR,NR,3300,
+,09/03/2016,4,Chini,NR,NR,3400,
+,12/03/2016,4,Chini,NR,NR,3370,
+,22/03/2016,10,Chini,NR,NR,3430,
+,25/03/2016,4,Chini,NR,NR,3430,
+,26/03/2016,5,Chini,NR,NR,3430,
+,29/03/2016,3,Chini,NR,NR,3500,
+Lakhimpur,01/03/2016,10,Chini,2990,3040,3015,
+,02/03/2016,11,Chini,2990,3050,3010,
+,16/03/2016,12,Chini,2900,3100,3010,
+,17/03/2016,11,Chini,3000,3100,3020,
+,18/03/2016,12,Chini,3000,3100,3010,
+,19/03/2016,11,Chini,3000,3030,3020,
+,20/03/2016,18,Chini,3000,3100,3040,
+,31/03/2016,20, ,NR,NR,NR,
+Shahjahanpur,09/03/2016,40,Medium,730,785,760,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

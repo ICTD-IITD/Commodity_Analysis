@@ -1,0 +1,17 @@
+virtualenv time-series
+cd time-series
+. bin/activate
+pip install django
+git clone https://github.com/archaic-magnon/time-series.git
+rename time-series to ProjectContainer
+mv time-series/ ProjectContainer/
+cd ProjectContainer
+--------------------------
+Make changes
+git add .
+git commit
+git pull origin master
+git push origin master
+------------------------
+
+

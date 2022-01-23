@@ -1,0 +1,161 @@
+{% load static %}
+
+<style>
+	.alert-warning {
+		color: #856404;
+		background-color: #fff3cd;
+		border-color: #ffeeba;
+	}
+
+	#id_anomaly_modal{
+		width: 85%;
+	}
+</style>
+
+<div id="id_anomaly_modal" class="modal" style="background: white; width: 85%!important">
+	<div class="modal-content">
+		<h4>Anomaly Details</h4>
+	</div>
+
+	<div class="row" style="margin:5px">
+		<div class="col s12 l9 offset-l1  center-align alert-warning" style="margin-bottom: 20px; padding: 10px">
+			<span style="font-weight: bold">Why this is a anomaly?</span>
+			<br>
+			<div id="id_anomaly_text_modal">
+				<span id="id_same_month_anomaly_text_modal"> 
+					The price is outside 
+					<span style="font-weight: 600;">
+						1 standard deviation 
+					</span>
+					from the 
+					<span style="font-weight: 600;">
+						average price 
+					</span>	
+					of all mandis for 
+					same month 
+					<span style="font-weight: bold;">
+						(<span id="id_same_month_month">Nov</span>, <span id="id_same_month_year">20</span>)
+					</span>
+					<br>
+				</span> 
+				<span id="id_last_month_anomaly_text_modal"> 
+					The price is outside 
+					<span style="font-weight: 600;">
+						1 standard deviation 
+					</span>
+					from the 
+					<span style="font-weight: 600;">
+						average price 
+					</span>	
+					of all mandis for 
+					last month 
+					<span style="font-weight: bold;">
+						(<span id="id_last_month_month">Oct</span>, <span id="id_last_month_year">2020</span>)
+					</span>
+					<br>
+				</span> 
+				<span id="id_last_yr_anomaly_text_modal">
+					The price is outside 
+					<span style="font-weight: 600;">
+						1 standard deviation 
+					</span>
+					from the 
+					<span style="font-weight: 600;">
+						average price 
+					</span>	 
+					of all mandis for same month 
+					<span style="font-weight: bold;">
+						(<span id="id_last_yr_month">November</span>)
+					</span>
+					in previous years	
+					<br>				
+				</span> 
+
+				<span id="id_anomaly_classifer_text_modal">
+					This period is marked as anomolus using ML Classifier 
+					<br>
+				</span>
+				
+			</div>	
+			
+
+		</div>
+		<div class="col s12 l2"></div>
+
+
+		<!-- table area -->
+		<div class="col s12 l3">
+			
+			<table class="highlight">
+				<tr>
+					<th> <span id="id_anomaly_modal_mandi_retail_text">Mandi</span></th>
+					<td> <span id="id_anomaly_modal_mandi_name">Bangalore</span> </td>
+
+				</tr>
+
+				<tr>
+					<th>State</th>
+					<td> <span id="id_anomaly_modal_state_name">Karnataka</span> </td>
+
+				</tr>
+
+				<tr>
+					<th>Start Date</th>
+					<td> <span id="id_anomaly_modal_start_date">2020-1-1</span> </td>
+
+				</tr>
+
+				<tr>
+					<th>End Date</th>
+					<td> <span id="id_anomaly_modal_end_date">2020-1-1</span> </td>
+
+				</tr>
+			</table>
+		</div>
+
+		<!-- chart detail area -->
+		<div class="col s12 l6">
+			<canvas id="id_anomaly_modal_chart" width="" height=""></canvas>
+		</div>
+
+		<div class="col s12 l3">
+			<ul class="collection" id="id_modal_news_list" style="height: 300px; overflow: auto">
+				<!-- <li class="collection-item">
+					<div class="row" style="margin-bottom: 0px">
+
+						<div class="col s8">
+							<span>2020-08-31</span>
+							<br>
+						</div>
+
+
+
+						<div class="col s3 right-align">
+							<a href="https://indianexpress.com/article/india/sudden-rise-in-tomato-prices-farmers-blame-rain-and-disruptions-due-to-covid-19-6577905/" class="secondary-content" target="_blank">
+								<i class="material-icons">launch</i>
+							</a>
+						</div>
+						<div class="col s12">
+							<span class="news_title">Sudden rise in tomato prices, farmers blame rain and disruptions due to Covid-19</span>
+						</div>
+
+					</div>
+				</li> -->
+			</ul>
+		</div>
+
+		<div class="col s12"> 
+			
+		</div>
+		
+
+	</div>
+
+
+
+	<div class="modal-footer">
+		<a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+	</div>
+</div>
+
+<script type="text/javascript" src="{% static 'home/js/landing_page_item/anomaly_modal.js'%}" defer></script>

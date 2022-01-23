@@ -1,0 +1,61 @@
+{% extends "./base.html" %}
+{% load static %}
+
+
+
+{% block page_name %} Map {% endblock %}
+
+
+{% block page_content %}
+	<div class="form-group row">
+		<div class="col-3">
+			<label for="commodity_select" class="col-12 col-form-label">Commodity</label>
+			<div class="col-12">
+				<select class="form-control" id="commodity_select">
+					<option value="Onion">Onion</option>
+					<option value="Potato" selected>Potato</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="col-3">
+			<label for="" class="col-12 col-form-label">First Month</label>
+			<div class="col-12">
+				<input class="datepicker" id="month1">
+			</div>
+		</div>
+
+		<div class="col-3">
+			<label for="" class="col-12 col-form-label">Second Month</label>
+			<div class="col-12">
+				<input class="datepicker" id="month2">
+			</div>
+		</div>
+	</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block head %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static 'dashboard/css/datepicker.css'%}"></link>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/1.0.2/geojson2svg.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="//www.amcharts.com/lib/3/ammap.js"></script>
+	<script src="//www.amcharts.com/lib/3/themes/light.js"></script>
+
+{% endblock %}
+
+{% block scripts %}	
+	{{ block.super }}
+	<script type="text/javascript" src="{% static 'dashboard/js/datepicker.js'%}"></script>
+	<script type="text/javascript" src="{% static 'dashboard/js/map.js'%}"></script>
+
+{% endblock %}

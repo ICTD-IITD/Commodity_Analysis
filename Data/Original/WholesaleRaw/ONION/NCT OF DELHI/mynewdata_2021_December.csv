@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:cec784c8f70689c73c77f256dd5a347925fde7910b6db1f8f342f7b4ff8cddfe
+size 714
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Azadpur,01/12/2021,1073.1, ,NR,NR,NR,
+,02/12/2021,903.8, ,NR,NR,NR,
+,03/12/2021,919.3, ,NR,NR,NR,
+,04/12/2021,963.7, ,NR,NR,NR,
+,06/12/2021,213.5, ,NR,NR,NR,
+,07/12/2021,1162.5, ,NR,NR,NR,
+Shahdara,01/12/2021,178.09,Nasik,1600,2000,1700,
+,,,Other,1200,1600,1400,
+,02/12/2021,208.79,Nasik,1600,2000,1800,
+,,,Other,1200,1600,1400,
+,03/12/2021,277.76,Nasik,2000,2200,2100,
+,,,Other,800,1200,1000,
+,04/12/2021,230.11,Nasik,1400,1600,1500,
+,,,Other,1000,1200,1100,
+,05/12/2021,170.1,Nasik,1400,1800,1600,
+,,,Other,800,1200,1000,
+,06/12/2021,85.8,Nasik,2000,2400,2200,
+,,,Other,1000,1400,1200,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

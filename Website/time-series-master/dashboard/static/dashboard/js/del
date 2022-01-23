@@ -1,0 +1,12 @@
+var data_to_send_mandi = {
+		type:1,
+		item:"onion",
+		mandi:"mumbai",
+		source:"mandi",
+	};
+var data_to_send_retail = {
+		type:1,
+		item:"onion",
+		mandi:"mumbai",
+		source:"retail",
+	};

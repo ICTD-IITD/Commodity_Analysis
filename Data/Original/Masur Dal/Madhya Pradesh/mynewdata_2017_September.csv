@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6d515bd0bdd04f4f2676d5349df334e8db288598aec5273b586208e9f11009d
+size 516
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Ambaha,23/09/2017,4, ,NR,NR,NR,
+Ujjain,07/09/2017,0.3,Masoor Gola,3100,3374,3374,
+,08/09/2017,0.2,Masoor Gola,2500,3199,3199,
+,09/09/2017,0.1,Masoor Gola,3100,3100,3100,
+,11/09/2017,0.1,Masoor Gola,2900,2900,2900,
+,13/09/2017,0.1,Masoor Gola,2600,2600,2600,
+,15/09/2017,0.4,Masoor Gola,3249,3249,3249,
+,22/09/2017,0.3,Masoor Gola,2800,3052,2950,
+,25/09/2017,0.2,Masoor Gola,2499,2949,2949,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

@@ -1,0 +1,161 @@
+<div class="row">
+	<div class="col-7">
+
+		<div class="row">
+			<div class="col-12 text-center">
+				<ul class="nav nav-pills mb-3 sticky-top" id="pills-tab" role="tablist" style="top: 40px; background-color: white">
+					<li class="nav-item">
+						<a class="nav-link active" id="pills-onion-mandi-tab" data-toggle="pill" href="#pills-onion-mandi" role="tab" aria-controls="pills-onion-mandi" aria-selected="true">Mandi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-onion-retail-tab" data-toggle="pill" href="#pills-onion-retail" role="tab" aria-controls="pills-onion-retail" aria-selected="true">Retail</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" id="pills-onion-history-tab" data-toggle="pill" href="#pills-onion-history" role="tab" aria-controls="pills-onion-history" aria-selected="true">Historical Events</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" id="pills-onion-arrival-tab" data-toggle="pill" href="#pills-onion-arrival" role="tab" aria-controls="pills-onion-arrival" aria-selected="true">Arrival</a>
+					</li> -->
+
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+
+					<div class="tab-pane fade show active" id="pills-onion-mandi" role="tabpanel" aria-labelledby="pills-onion-mandi-tab">
+						{% include "./forecasting-info.html" %}
+						
+						<div id="plot_mandi_retail_onion_mumbai_1"></div>
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_mandi_onion_mumbai_1"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_mandi_onion_bangalore_1"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_mandi_onion_delhi_1"></div>
+						<hr>
+
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_mandi_onion_mumbai_2"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_mandi_onion_bangalore_2"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_mandi_onion_delhi_2"></div>
+						<hr>
+
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_mandi_onion_mumbai_3"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_mandi_onion_bangalore_3"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_mandi_onion_delhi_3"></div>
+						<hr>
+						
+					</div>
+
+					<div class="tab-pane fade show" id="pills-onion-retail" role="tabpanel" aria-labelledby="pills-onion-retail-tab">
+						{% include "./forecasting-info.html" %}
+
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_retail_onion_mumbai_1"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_retail_onion_bangalore_1"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_retail_onion_delhi_1"></div>
+						<hr>
+
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_retail_onion_mumbai_2"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_retail_onion_bangalore_2"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_retail_onion_delhi_2"></div>
+						<hr>
+
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_retail_onion_mumbai_3"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_retail_onion_bangalore_3"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_retail_onion_delhi_3"></div>
+						<hr>
+					</div>
+
+					<div class="tab-pane fade show" id="pills-onion-arrival" role="tabpanel" aria-labelledby="pills-onion-arrival-tab">
+						{% include "./forecasting-info.html" %}
+						
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_arrival_onion_mumbai_1"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_arrival_onion_bangalore_1"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_arrival_onion_delhi_1"></div>
+						<hr>
+
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_arrival_onion_mumbai_2"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_arrival_onion_bangalore_2"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_arrival_onion_delhi_2"></div>
+						<hr>
+
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Mumbai</h5>
+						<div id="plot_arrival_onion_mumbai_3"></div>
+						<hr>
+						<h5>Bangalore</h5>
+						<div id="plot_arrival_onion_bangalore_3"></div>
+						<hr>
+						<h5>Delhi</h5>
+						<div id="plot_arrival_onion_delhi_3"></div>
+						<hr>
+					</div>
+
+					<div class="tab-pane fade show" id="pills-onion-history" role="tabpanel" aria-labelledby="pills-onion-history-tab">
+						{% include "./onion_history.html" %}
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-5">
+
+		{% include "./onion_news.html" %}
+
+
+	</div>
+</div>
+

@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:8039d0cb2e9904c5351f7b55ccdbcb5760b37df13ea8b4d9ac9cf3acc3a10903
+size 244
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Narela,09/12/2019,7.5,Chini,3494,3494,3494,
+,20/12/2019,7.5,Chini,3467,3467,3467,
+,30/12/2019,5,Chini,3525,3525,3525,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

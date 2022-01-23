@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:0acd7246955b20734a37ce4fa7e9907cfa094f6128e92f9fbd05341e63f876ea
+size 900
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Jaitaran,09/10/2018,11.2,Green Gram Dal,4250,5700,4975,
+,10/10/2018,0.5,Green Gram Dal,4400,5000,4700,
+,11/10/2018,6.8,Green Gram Dal,4200,4500,4350,
+,31/10/2018,128.1,Green Gram Dal,4500,6975,5737,
+Pipar City,05/10/2018,15.9,Green Gram Dal,4800,5400,5200,
+,15/10/2018,15.5,Green Gram Dal,6975,6975,6975,
+,16/10/2018,1.8,Green Gram Dal,5250,5600,5450,
+,17/10/2018,6,Green Gram Dal,5200,5500,5350,
+,22/10/2018,77.4,Green Gram Dal,6975,6975,6975,
+,23/10/2018,17.7,Green Gram Dal,6975,6975,6975,
+,24/10/2018,99.4, ,NR,NR,NR,
+,25/10/2018,113.9,Green Gram Dal,6975,6975,6975,
+,26/10/2018,108,Green Gram Dal,6975,6975,6975,
+,29/10/2018,3.5,Green Gram Dal,4580,5250,5000,
+,31/10/2018,143.8,Green Gram Dal,6975,6975,6975,
+Sriganganagar,02/10/2018,6.4,Green Gram Dal,5385,5625,5500,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

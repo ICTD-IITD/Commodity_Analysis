@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:0985dfcb1ff63f1c2bead430141af6628455b13fa37a28c82a40880990c27fcc
+size 266
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Ajaygarh,24/03/2017,57,Kala Masoor New,4400,4425,4410,
+Datia,04/03/2017,25, ,NR,NR,NR,
+,06/03/2017,8, ,NR,NR,NR,
+,07/03/2017,50, ,NR,NR,NR,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

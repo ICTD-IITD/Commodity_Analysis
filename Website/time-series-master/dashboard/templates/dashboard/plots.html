@@ -1,0 +1,52 @@
+{% extends "base/base.html" %}
+
+{% load static %}
+
+{% block title %} Plots {% endblock %}
+
+{% block page_name %} Plot {% endblock %}
+
+
+{% block page_content %}
+	<div class="row">
+		<div class="col-12 text-center">
+			<ul class="nav nav-pills mb-3 sticky-top" id="pills-tab" role="tablist" style="top: 40px; background-color: white">
+				<li class="nav-item">
+					<a class="nav-link active" id="pills-onion-tab" data-toggle="pill" href="#pills-onion" role="tab" aria-controls="pills-onion" aria-selected="true">Onion</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pills-potato-tab" data-toggle="pill" href="#pills-potato" role="tab" aria-controls="pills-potato" aria-selected="false">Potato</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+
+				<div class="tab-pane fade show active" id="pills-onion" role="tabpanel" aria-labelledby="pills-onion-tab">
+					{% include "./onion_tab.html" %}
+				</div>
+
+				<div class="tab-pane fade" id="pills-potato" role="tabpanel" aria-labelledby="pills-potato-tab">
+					{% include "./potato_tab.html" %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block head %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static 'dashboard/css/plot.css'%}">
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+{% endblock %}
+
+{% block scripts %}	
+	{{ block.super }}
+	<script type="text/javascript" src="{% static 'dashboard/js/plot.js'%}"></script>
+{% endblock %}

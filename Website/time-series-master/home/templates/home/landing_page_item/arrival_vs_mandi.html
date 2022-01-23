@@ -1,0 +1,110 @@
+<div class="col s12" style=""> 
+	<div class="divider"></div>
+	<div class="section">
+		<h4>Last 3 Year Trends</h4>
+		<!-- <button class="waves-effect waves-light btn" onclick=requestNewsModal("last3yr")>See news</button> -->
+		
+		<span class="grey-text text-darken-2"> 
+			<blockquote>
+				Plot below shows the Arrival vs Mandi price trends for last 3 years <br> Shows how the mandi price changes with change in arrival amount <br> 
+				Generally, Price rises when arrival is low and price decrease when arrival is high
+			</blockquote>
+		</span>
+		<br>
+		<br>
+
+		<div class="row">
+
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field">
+					<select class="center-align" id="id_select_state1_arrival_mandi">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" selected>Maharashtra</option>
+						<option value="2">Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state2_arrival_mandi">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" >Maharashtra</option>
+						<option value="2" selected>Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 2</label>
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state3_arrival_mandi">
+						<option value="" disabled selected>Select state</option>
+						<option value="1">Maharashtra</option>
+						<option value="2" >Karnataka</option>
+						<option value="3" selected>NCT of Delhi</option>
+					</select>
+					<label>Select State 3</label>
+				</div>
+
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi1_arrival_mandi">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" selected>Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" >Azadpur</option>
+					</select>
+					<label>Select Mandi 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi2_arrival_mandi">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1">Lasalgaon</option>
+						<option value="2" selected>Bangalore</option>
+						<option value="3">Azadpur</option>
+					</select>
+					<label>Select Mandi 2</label>
+				</div>
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi3_arrival_mandi">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" >Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" selected>Azadpur</option>
+					</select>
+					<label>Select Mandi 3</label>
+				</div>
+			</div>
+
+
+			<div class="col s4 chart_cell">
+				<canvas id="arrival_vs_mandi_chart11" width="" height="" data-type="mandi"></canvas>
+
+
+
+			</div>
+			<div class="col s4 chart_cell">
+				<canvas id="arrival_vs_mandi_chart12" width="" height="" data-type="mandi"></canvas>
+
+			</div>
+			<div class="col s4 chart_cell right-align">
+				<canvas id="arrival_vs_mandi_chart13" width="" height="" data-type="mandi"></canvas>
+				<!-- <button class="waves-effect waves-light btn" onclick=requestNewsModal("mandi_arrival")>See news</button> -->
+			</div>
+			
+		</div>
+
+	</div>
+</div>

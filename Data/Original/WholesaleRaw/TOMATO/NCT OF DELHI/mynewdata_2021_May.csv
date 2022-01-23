@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:70d76ab63db2665a95735ae648b290b0db25bd269fc7d272c0d7aad9d1885a24
+size 596
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Azadpur,01/05/2021,292.7, ,NR,NR,NR,
+,03/05/2021,16.1,Tomato,200,1080,607,
+,04/05/2021,484.5,Tomato,200,1080,607,
+,05/05/2021,375.6,Tomato,200,1080,607,
+,06/05/2021,295,Tomato,200,1080,607,
+,07/05/2021,320.4,Tomato,200,1080,607,
+Shahdara,01/05/2021,175.47,Tomato,300,700,500,
+,02/05/2021,173.77,Tomato,300,700,500,
+,03/05/2021,281.47,Tomato,200,800,600,
+,04/05/2021,210.37,Tomato,200,700,500,
+,05/05/2021,178.4,Tomato,300,800,500,
+,06/05/2021,170.42,Tomato,300,800,500,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

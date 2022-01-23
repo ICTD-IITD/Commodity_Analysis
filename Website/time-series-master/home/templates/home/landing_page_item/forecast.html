@@ -1,0 +1,127 @@
+<div class="col s12" style=""> 
+	<div class="divider"></div>
+	<div class="section">
+		<br>
+		<br>
+		<h5>Forecasted 1 month</h5>
+
+		<span class="grey-text text-darken-2"> 
+			<blockquote>Plot below shows the mandi price, retail price and arrival amount for last 3 months along with the forecasted 1 month
+
+			</blockquote>
+		</span>
+		<br>
+		<br>
+
+		<div class="row" style="">
+
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field">
+					<select class="center-align" id="id_select_state1_forecast">
+					
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state2_forecast">
+					
+					</select>
+					<label>Select State 2</label>
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state3_forecast">
+					
+					</select>
+					<label>Select State 3</label>
+				</div>
+
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi1_forecast">
+					
+					</select>
+					<label>Select Mandi 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi2_forecast">
+					
+					</select>
+					<label>Select Mandi 2</label>
+				</div>
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi3_forecast">
+						
+					</select>
+					<label>Select Mandi 3</label>
+				</div>
+			</div>
+
+			<!-- mandi -->
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart11" width="" height="" data-type="mandi"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart21" width="" height="" data-type="mandi"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell right-align">
+				<canvas id="forecast_chart31" width="" height="" data-type="mandi"></canvas>
+				
+			</div>
+
+			<div class="divider"></div>
+
+			<!-- retail -->
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart12" width="" height="" data-type="retail"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart22" width="" height="" data-type="retail"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell right-align">
+				<canvas id="forecast_chart32" width="" height="" data-type="retail"></canvas>
+				
+			</div>
+
+			<br>
+			<br>
+			<br>
+
+
+
+			<!-- arrival -->
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart13" width="" height="" data-type="arrival"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell">
+				<canvas id="forecast_chart23" width="" height="" data-type="arrival"></canvas>
+			</div>
+
+			<div class="col s4 chart_cell right-align">
+				<canvas id="forecast_chart33" width="" height="" data-type="arrival"></canvas>
+				<!-- <button class="waves-effect waves-light btn" onclick=requestNewsModal("forecast_arrival")>See news</button> -->
+			</div>
+
+
+		</div>
+
+	</div>
+</div>

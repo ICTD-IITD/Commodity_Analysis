@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea49c42393a19dab0501e4daaacca8cce9c04ef3f4130505dae7f1aa365d8f42
+size 255
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Najafgarh,15/10/2019,15,Chini,3400,3400,3400,
+Narela,06/10/2019,19.5,Chini,3583,3704,3704,
+,25/10/2019,7.5,Chini,3580,3580,3580,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

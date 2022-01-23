@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:10be4e83f807bd25bb222bbaba00cc1e3c223e0a4658799a313e7ceaa52df0a5
+size 1224
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Bikaner (Grain),01/02/2017,3,Green Gram Dal,4061,4061,4061,
+,02/02/2017,5,Green Gram Dal,4225,4225,4225,
+,03/02/2017,14.5,Green Gram Dal,3902,4251,4076,
+,04/02/2017,1,Green Gram Dal,4125,4125,4125,
+,06/02/2017,4.6,Green Gram Dal,3950,4161,4055,
+,08/02/2017,15.8,Green Gram Dal,3825,3891,3858,
+,09/02/2017,2.5,Green Gram Dal,3851,3901,3876,
+,10/02/2017,3.2,Green Gram Dal,3801,4055,3928,
+,11/02/2017,1.6,Green Gram Dal,3850,4050,3950,
+,13/02/2017,1.4,Green Gram Dal,3701,4201,3951,
+,14/02/2017,1,Green Gram Dal,3850,3850,3850,
+,15/02/2017,4.2,Green Gram Dal,3851,4076,3963,
+,16/02/2017,1.5,Green Gram Dal,3201,3201,3201,
+,20/02/2017,11.7,Green Gram Dal,3751,4052,3901,
+,21/02/2017,10,Green Gram Dal,3950,4300,4125,
+,22/02/2017,2.6,Green Gram Dal,3909,4300,4104,
+,23/02/2017,29.1,Green Gram Dal,3711,4000,3855,
+,24/02/2017,3,Green Gram Dal,3711,3861,3786,
+,25/02/2017,0.2,Green Gram Dal,3752,3752,3752,
+,27/02/2017,4,Green Gram Dal,3552,3801,3676,
+,28/02/2017,1.8,Green Gram Dal,3801,3801,3801,
+Sriganganagar,01/02/2017,0.8,Green Gram Dal,1700,1750,1750,
+,02/02/2017,5,Green Gram Dal,1911,1911,1911,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

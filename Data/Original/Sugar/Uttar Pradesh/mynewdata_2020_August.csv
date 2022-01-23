@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2d272bc8d7c48a1cbe62c5f14cb3f923cf10ca78ae4533909eca28a6cddc316
+size 919
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Dadri,03/08/2020,4,Chini,3480,3580,3530,
+,06/08/2020,4,Chini,3430,3530,3480,
+Ghaziabad,03/08/2020,50,Medium,3500,3600,3560,
+,04/08/2020,60,Medium,3450,3600,3560,
+,05/08/2020,40,Medium,3400,3600,3500,
+,06/08/2020,55,Medium,3475,3525,3500,
+Hapur,03/08/2020,18,Fine,3450,3580,3500,
+,04/08/2020,20,Fine,3480,3590,3500,
+Lakhimpur,04/08/2020,15, ,NR,NR,NR,
+,05/08/2020,13, ,NR,NR,NR,
+,06/08/2020,15,Chini,3460,3500,3480,
+Mawana,03/08/2020,5, ,NR,NR,NR,
+,04/08/2020,4, ,NR,NR,NR,
+,05/08/2020,5, ,NR,NR,NR,
+,06/08/2020,6, ,NR,NR,NR,
+Muzzafarnagar,03/08/2020,25,Medium,3480,3550,3500,
+,04/08/2020,27,Medium,3480,3530,3500,
+,05/08/2020,25,Medium,3480,3530,3500,
+,06/08/2020,25,Medium,3480,3525,3500,
+Paliakala,04/08/2020,1.3, ,NR,NR,NR,
+,05/08/2020,1.5, ,NR,NR,NR,
+,06/08/2020,1.2,Chini,3430,3480,3460,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

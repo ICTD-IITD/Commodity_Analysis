@@ -1,0 +1,55 @@
+{% extends "base/base.html" %}
+
+{% load static %}
+
+{% block title %} Volatility {% endblock %}
+
+{% block page_name %} Volatility {% endblock %}
+
+
+{% block page_content %}
+<div class="row">
+	<div class="col-12 text-center">
+		<ul class="nav nav-pills mb-3 sticky-top" id="pills-tab" role="tablist" style="top: 40px; background-color: white">
+			<li class="nav-item">
+				<a class="nav-link active" id="pills-center-tab" data-toggle="pill" href="#pills-center" role="tab" aria-controls="pills-center" aria-selected="true">All center</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="pills-monthly-tab" data-toggle="pill" href="#pills-monthly" role="tab" aria-controls="pills-monthly" aria-selected="false">Trends</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="pills-tabContent">
+
+			<div class="tab-pane fade show active" id="pills-center" role="tabpanel" aria-labelledby="pills-center-tab">
+				{% include "./all_center_tab.html" %}
+			</div>
+
+			<div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
+				{% include "./monthrange_tab.html" %}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
+
+{% block head %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static 'base/css/datepicker.css'%}"></link>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+
+
+{% endblock %}
+
+{% block scripts %}	
+	{{ block.super }}
+
+	<script type="text/javascript" src="{% static 'base/js/datepicker.js'%}"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="{% static 'volatility/js/volatility.js'%}"></script>
+
+
+{% endblock %}

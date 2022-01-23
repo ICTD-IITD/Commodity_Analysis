@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:317d786a471ed0c457a2492a12c6f8813cffb400fdddcad9d6fa0d9d9cbc00a9
+size 1069
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Akluj,12/08/2020,1,Other,1600,2200,2000,
+Kalmeshwar,11/08/2020,2,Other,2015,2500,2235,
+,12/08/2020,3,Other,2045,2500,2325,
+Kamthi,01/08/2020,1,Local,3000,4000,3800,
+,12/08/2020,1,Local,2000,3000,2800,
+Kolhapur,09/08/2020,47,Other,1000,2000,1500,
+Patan,08/08/2020,2,Other,1250,1450,1350,
+Pimpalgaon,11/08/2020,496,Other,250,2555,2000,
+Pune(Khadiki),01/08/2020,1,Local,800,1500,1150,
+,02/08/2020,2,Local,500,1500,1000,
+,09/08/2020,1,Local,1500,2000,1750,
+,12/08/2020,1,Local,1000,2000,1500,
+,13/08/2020,1,Local,500,800,650,
+Rahuri,01/08/2020,3,Other,500,1700,1200,
+Sangamner,07/08/2020,374,Other,500,1500,1000,
+,08/08/2020,277,Other,500,1500,1000,
+,11/08/2020,193,Other,500,2250,1375,
+Satara,12/08/2020,5,Other,1000,1500,1250,
+Vai,01/08/2020,9,Local,700,1500,1100,
+,02/08/2020,10,Local,700,1500,1100,
+,08/08/2020,8,Local,1500,2500,2000,
+,09/08/2020,10,Local,1500,2500,2000,
+,12/08/2020,8,Local,900,1700,1350,
+,14/08/2020,7,Local,1000,1700,1350,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

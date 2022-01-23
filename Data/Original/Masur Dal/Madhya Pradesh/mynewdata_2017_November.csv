@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f7da4334ba06188fc9c4978708ada5b0c456cbf9d3ab2fe015c34963f3a8fbf
+size 1099
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Ajaygarh,11/11/2017,68,Kala Masoor New,2850,4000,3952,
+Pohari,25/11/2017,4, ,NR,NR,NR,
+Ujjain,01/11/2017,0.3,Masoor Gola,2000,2301,2202,
+,02/11/2017,0.5,Masoor Gola,2450,2625,2551,
+,03/11/2017,0.5,Masoor Gola,2401,2610,2451,
+,06/11/2017,0.8,Masoor Gola,2599,2680,2640,
+,07/11/2017,0.2,Masoor Gola,1701,2301,2301,
+,08/11/2017,0.3,Masoor Gola,1900,2500,2361,
+,09/11/2017,0.6,Masoor Gola,2000,2570,2570,
+,10/11/2017,1.4,Masoor Gola,2200,2786,2301,
+,13/11/2017,0.3,Masoor Gola,2301,2351,2351,
+,14/11/2017,0.4,Masoor Gola,2635,2635,2635,
+,15/11/2017,1.1,Masoor Gola,2191,2646,2612,
+,16/11/2017,0.5,Masoor Gola,2101,2475,2475,
+,17/11/2017,2.4,Masoor Gola,1076,2680,2640,
+,20/11/2017,0.6,Masoor Gola,2430,2699,2699,
+,21/11/2017,1.2,Masoor Gola,1901,2540,2290,
+,22/11/2017,0.1,Masoor Gola,2541,2541,2541,
+,27/11/2017,0.1,Masoor Gola,2011,2011,2011,
+,28/11/2017,0.2,Masoor Gola,2826,3175,3175,
+,29/11/2017,0.1,Masoor Gola,3001,3001,3001,
+,30/11/2017,0.5,Masoor Gola,2899,3050,2990,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

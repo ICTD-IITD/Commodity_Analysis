@@ -1,0 +1,59 @@
+{% load static %}
+
+<div>
+	<!-- form -->
+	<div class="form-group row">
+		<div class="col-3">
+			<label for="commodity_select_allcenter" class="col-12 col-form-label">Commodity</label>
+			<div class="col-12">
+
+				<select class="form-control" id="commodity_select_allcenter">
+					{% for commodity in commodity_list%}
+					{{commodity}}
+					<option value="{{commodity}}">{{commodity}}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+
+
+		<div class="col-3">
+			<label for="" class="col-12 col-form-label">Select Month</label>
+			<div class="col-12">
+				<input class="datepicker" id="month_allcenter" autocomplete="off">
+			</div>
+		</div>
+
+		<div class="col-3">
+			<label for="mode_select_allcenter" class="col-12 col-form-label">Type</label>
+			<div class="col-12">
+				<select class="form-control" id="mode_select_allcenter">
+					<option value="retail">Retail</option>
+					<option value="wholesale">Wholesale</option>
+				</select>
+			</div>
+		</div>
+
+
+
+		
+	</div>
+
+	<!-- form end -->
+
+	<div class="row">
+		<div class="col-12" id="volatility_div">
+			
+			<table id="table_id" class="display">
+			    <thead>
+			        <tr>
+			            <th>Center</th>
+			            <th>Value</th>
+			        </tr>
+			    </thead>
+
+			</table>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="{% static 'volatility/js/all_center_tab.js'%}"></script>

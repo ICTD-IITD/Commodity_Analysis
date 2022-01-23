@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:efc224a819f8fd3afd45caa8efc8f6356a881299fcbb15735bd178e297f320ee
+size 489
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Mumbai,12/03/2020,166,Other,9200,11200,10500,
+,13/03/2020,24,Other,9200,11200,10500,
+,14/03/2020,56,Other,9200,11200,10500,
+,16/03/2020,90,Other,9200,11200,10500,
+,17/03/2020,131,Other,9200,11200,10500,
+,18/03/2020,101,Other,9200,11200,10500,
+,19/03/2020,162,Other,9400,11500,10700,
+,20/03/2020,152,Other,9400,11500,10700,
+,21/03/2020,241,Other,9400,11500,10700,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

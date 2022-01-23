@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:a444371de791500d5e113949f3509da5fb6f6e6bd4318388a8c34141497523db
+size 596
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Azadpur,01/05/2021,429.6, ,NR,NR,NR,
+,03/05/2021,89.2,Potato,400,1200,709,
+,04/05/2021,685.6,Potato,480,1200,740,
+,05/05/2021,571.5,Potato,480,1200,740,
+,06/05/2021,1057,Potato,500,1200,726,
+,07/05/2021,672.6,Potato,480,1200,726,
+Shahdara,01/05/2021,262.85,Potato,700,1000,800,
+,02/05/2021,233.8,Potato,700,1000,800,
+,03/05/2021,228.3,Potato,600,1000,800,
+,04/05/2021,229.65,Potato,600,1000,800,
+,05/05/2021,271,Potato,700,900,800,
+,06/05/2021,445.3,Potato,700,900,800,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

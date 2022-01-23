@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc1ee1acbd945ee9daef520bd19ad79156acbb78d27d85cce3d6e3be6320a122
+size 541
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Ajaygarh,03/06/2017,42,Kala Masoor New,3450,3470,3470,
+,14/06/2017,15,Kala Masoor New,3950,3950,3950,
+Ujjain,16/06/2017,17,Masoor Gola,3299,3299,3299,
+,17/06/2017,0.7,Masoor Gola,2950,3264,3264,
+,19/06/2017,1.8,Masoor Gola,2901,3121,2950,
+,20/06/2017,0.4,Masoor Gola,2600,2931,2931,
+,21/06/2017,2.3,Masoor Gola,2941,3023,3023,
+,22/06/2017,0.4,Masoor Gola,2751,3101,3101,
+,28/06/2017,1.5,Masoor Gola,3245,3245,3245,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

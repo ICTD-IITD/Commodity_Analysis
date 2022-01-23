@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:a552ec228b30b3a285a987706ba3fa15bfdbf4418812afd3f6414a1b7ed05284
+size 397
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Najafgarh,12/08/2017,6,Chini,3700,3700,3700,
+,17/08/2017,6,Chini,3700,3700,3700,
+,19/08/2017,8,Chini,3800,3800,3800,
+,24/08/2017,13,Chini,3800,3800,3800,
+,29/08/2017,14,Chini,3700,3700,3700,
+Narela,13/08/2017,7.5,Chini,3898,3898,3898,
+,27/08/2017,8,Chini,3971,3971,3971,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

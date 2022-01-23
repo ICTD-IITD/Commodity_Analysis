@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:72476eb201de100e10bf1cef0478af18715820bd1261d311de7815d26871825b
+size 514
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Bareilly,02/01/2017,18,Masur Dal,7500,7800,7650,
+,03/01/2017,12,Masur Dal,NR,NR,7625,
+,04/01/2017,1.2,Masur Dal,NR,NR,7615,
+,06/01/2017,16,Masur Dal,NR,NR,7600,
+,07/01/2017,9.5,Masur Dal,NR,NR,7610,
+,09/01/2017,18,Masur Dal,NR,NR,7600,
+,11/01/2017,36,Masur Dal,NR,NR,7500,
+,17/01/2017,16.5,Masur Dal,NR,NR,7450,
+,20/01/2017,31.5,Masur Dal,NR,NR,7350,
+,31/01/2017,32,Masur Dal,NR,NR,7200,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

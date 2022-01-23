@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6e793c923a367d49a4516d81c3d447e4584195628371515cd293c2335c22d05
+size 327
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Sultanpur,03/05/2019,7,Wheat Atta,2300,2500,2400,
+,10/05/2019,8, ,NR,NR,NR,
+,17/05/2019,8.5,Wheat Atta,2300,2500,2400,
+,24/05/2019,8,Wheat Atta,2200,2400,2300,
+,31/05/2019,9,Wheat Atta,2300,2400,2350,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

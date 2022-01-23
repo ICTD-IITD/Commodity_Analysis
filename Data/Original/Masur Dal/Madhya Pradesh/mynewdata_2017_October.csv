@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:306512c019f3ab6053eb10534f7547d9c0604a1bcbc6e57e4d7e4441d7376b10
+size 779
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Sevda,23/10/2017,6, ,NR,NR,NR,
+Ujjain,03/10/2017,0.1,Masoor Gola,2801,2801,2801,
+,06/10/2017,1.4,Masoor Gola,2100,3000,2600,
+,10/10/2017,0.8,Masoor Gola,2151,2901,2762,
+,11/10/2017,0.3,Masoor Gola,2301,2650,2416,
+,12/10/2017,1.1,Masoor Gola,1651,2475,2300,
+,13/10/2017,1.2,Masoor Gola,2250,2546,2511,
+,14/10/2017,0.3,Masoor Gola,2360,2441,2430,
+,23/10/2017,0.6,Masoor Gola,2000,2601,2430,
+,24/10/2017,1.7,Masoor Gola,2799,2800,2800,
+,25/10/2017,1.4,Masoor Gola,2399,2900,2740,
+,26/10/2017,0.4,Masoor Gola,2000,2725,2600,
+,27/10/2017,0.6,Masoor Gola,2601,2760,2700,
+,28/10/2017,0.4,Masoor Gola,2571,2717,2717,
+,31/10/2017,0.1,Masoor Gola,2541,2541,2541,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

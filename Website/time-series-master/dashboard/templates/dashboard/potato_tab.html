@@ -1,0 +1,137 @@
+<div class="row">
+	<div class="col-7">
+
+		<div class="row">
+			<div class="col-12 text-center">
+				<ul class="nav nav-pills mb-3 sticky-top" id="pills-tab" role="tablist" style="top: 40px; background-color: white">
+					<li class="nav-item">
+						<a class="nav-link active" id="pills-potato-mandi-tab" data-toggle="pill" href="#pills-potato-mandi" role="tab" aria-controls="pills-potato-mandi" aria-selected="true">Mandi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-potato-retail-tab" data-toggle="pill" href="#pills-potato-retail" role="tab" aria-controls="pills-potato-retail" aria-selected="true">Retail</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="pills-potato-history-tab" data-toggle="pill" href="#pills-potato-history" role="tab" aria-controls="pills-potato-history" aria-selected="true">Historical Events</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" id="pills-potato-arrival-tab" data-toggle="pill" href="#pills-potato-arrival" role="tab" aria-controls="pills-potato-arrival" aria-selected="true">Arrival</a>
+					</li> -->
+
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+
+					<div class="tab-pane fade show active" id="pills-potato-mandi" role="tabpanel" aria-labelledby="pills-potato-mandi-tab">
+						{% include "./forecasting-info.html" %}
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_mandi_potato_lucknow_1"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_mandi_potato_kolkata_1"></div>
+						<hr>
+						
+
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_mandi_potato_lucknow_2"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_mandi_potato_kolkata_2"></div>
+						<hr>
+					
+
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_mandi_potato_lucknow_3"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_mandi_potato_kolkata_3"></div>
+						<hr>
+					
+						
+					</div>
+
+					<div class="tab-pane fade show" id="pills-potato-retail" role="tabpanel" aria-labelledby="pills-potato-retail-tab">
+						{% include "./forecasting-info.html" %}
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_retail_potato_lucknow_1"></div>
+						<hr>
+						<!-- <h5>Kolkata</h5>
+						<div id="plot_retail_potato_kolkata_1"></div>
+						<hr>
+					 -->
+
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_retail_potato_lucknow_2"></div>
+						<hr>
+						<!-- <h5>Kolkata</h5>
+						<div id="plot_retail_potato_kolkata_2"></div>
+						<hr>
+						 -->
+
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_retail_potato_lucknow_3"></div>
+						<hr>
+						<!-- <h5>Kolkata</h5>
+						<div id="plot_retail_potato_kolkata_3"></div>
+						<hr>
+				 -->
+					</div>
+
+					<div class="tab-pane fade show" id="pills-potato-arrival" role="tabpanel" aria-labelledby="pills-potato-arrival-tab">
+						{% include "./forecasting-info.html" %}
+
+						<h4>Recent 30 days</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_arrival_potato_lucknow_1"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_arrival_potato_kolkata_1"></div>
+						<hr>
+						
+						<h4>Last 1 years</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_arrival_potato_lucknow_2"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_arrival_potato_kolkata_2"></div>
+						<hr>
+						
+						<h4>All</h4>
+						<hr><hr>
+						<h5>Lucknow</h5>
+						<div id="plot_arrival_potato_lucknow_3"></div>
+						<hr>
+						<h5>Kolkata</h5>
+						<div id="plot_arrival_potato_kolkata_3"></div>
+						<hr>
+						
+					</div>
+					<div class="tab-pane fade show" id="pills-potato-history" role="tabpanel" aria-labelledby="pills-potato-history-tab">
+						{% include "./potato_history.html" %}
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-5">
+
+		{% include "./potato_news.html" %}
+
+
+	</div>
+</div>
+

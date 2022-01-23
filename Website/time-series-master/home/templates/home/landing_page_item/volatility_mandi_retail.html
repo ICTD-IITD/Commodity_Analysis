@@ -1,0 +1,123 @@
+<div class="col s12" style=""> 
+	<div class="divider"></div>
+	<div class="section">
+		<h4>Volatility Trends</h4>
+		<!-- <button class="waves-effect waves-light btn" onclick=requestNewsModal("volatility")>See news</button>
+		<span class="grey-text text-darken-2"> -->
+			<blockquote> Volatility is the variation in prices over a month in a mandi <br>
+				Plot below shows the Volatility of Mandi/Retail price with average volatility across all mandis
+			</blockquote>
+		</span>
+		<br>
+		<br>
+
+		<div class="row">
+
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field">
+					<select class="center-align" id="id_select_state1_volatility">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" selected>Maharashtra</option>
+						<option value="2">Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<!-- <label>Select State 1</label> -->
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state2_volatility">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" >Maharashtra</option>
+						<option value="2" selected>Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state3_volatility">
+						<option value="" disabled selected>Select state</option>
+						<option value="1">Maharashtra</option>
+						<option value="2" >Karnataka</option>
+						<option value="3" selected>NCT of Delhi</option>
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi1_volatility">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" selected>Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" >Azadpur</option>
+					</select>
+					<label>Select Mandi 1</label>
+				</div>
+
+			</div>
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi2_volatility">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1">Lasalgaon</option>
+						<option value="2" selected>Bangalore</option>
+						<option value="3">Azadpur</option>
+					</select>
+					<label>Select Mandi 2</label>
+				</div>
+			</div>
+
+			<div class="col s4 mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi3_volatility">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" >Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" selected>Azadpur</option>
+					</select>
+					<label>Select Mandi 3</label>
+				</div>
+			</div>
+
+
+			<div class="col s4 chart_cell">
+				<canvas id="vol_mandi_chart11" width="" height=""></canvas>
+
+
+
+			</div>
+			<div class="col s4 chart_cell">
+				<canvas id="vol_mandi_chart12" width="" height=""></canvas>
+
+			</div>
+			<div class="col s4 chart_cell">
+				<canvas id="vol_mandi_chart13" width="" height=""></canvas>
+
+			</div>
+
+			<div class="col s4 chart_cell">
+				<canvas id="vol_retail_chart11" width="" height=""></canvas>
+
+
+
+			</div>
+			<div class="col s4 chart_cell">
+				<canvas id="vol_retail_chart12" width="" height=""></canvas>
+
+			</div>
+			<div class="col s4 chart_cell">
+				<canvas id="vol_retail_chart13" width="" height=""></canvas>
+
+			</div>
+			
+		</div>
+
+	</div>
+</div>

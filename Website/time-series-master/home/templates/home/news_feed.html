@@ -1,0 +1,270 @@
+{% load static %}
+
+
+
+<style type="text/css">
+	.news_title{
+		font-size: 18px;
+	}
+	p{
+		/*margin: 1px;*/
+	}
+
+	.news_mandi_name{
+		color: purple;
+	}
+
+	.news_kw{
+		color: red;
+	}
+
+	.rel_news_title{
+		font-size: 16px;
+	}
+
+	.rel_news_list::before{ 
+		content: "\00BB"; 
+	}
+
+	li{
+		list-style: none;
+	}
+	.launch_button{
+		background: transparent;
+		border: none;
+		cursor: pointer;
+	}
+
+
+</style>
+
+
+<!-- Modal Structure -->
+<div id="volatileModal" class="modal" style="width: 70%!important">
+	<div class="modal-content">
+		<!-- <h4>Volatility</h4> -->
+		{% include "home/news_feed_vol_modal.html" %}
+
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+	</div>
+</div>
+
+
+
+<div style=" overflow-y:scroll; overflow-x: hidden;top: 0; bottom: 0 ">
+	<h4>News feed</h4>
+	<div class="row">
+		<!-- date commodity selcetor -->
+
+		<div class="col s12" style="position: ; ">
+			<div class="col s4">
+				<!-- <span>Select Date</span> -->
+				<input id="id_news_feed_date" type="text" class="datepicker">
+			</div>
+
+			<div class="col s5">
+				<!-- <label>Select Commodity</label> -->
+				<select id="id_news_feed_commoodity"  class="browser-default">
+					<option value="" disabled>Select commodity</option>
+					<option value="ALL" >ALL COMMODITY</option>
+					<option value="ONION" selected>ONION</option>
+					<option value="POTATO">POTATO</option>
+					<option value="TOMATO">TOMATO</option>
+					<!-- <option value="SUGAR">SUGAR</option> -->
+					<option value="MUSTARD OIL">MUSTARD OIL</option>
+					<option value="MASUR DAL">MASUR DAL</option>
+					<option value="GREEN GRAM DAL (MOONG DAL)">GREEN GRAM DAL (MOONG DAL)</option>
+
+				</select>
+			</div>
+
+			<div class="col s3" style="position: ; ">
+				<button class="waves-effect waves-light btn" onclick="getNewsFeed()">Get News</button>
+			</div>
+
+
+
+
+
+		</div>
+		
+	</div>
+	<div class="divider"></div>
+
+	<ul class="collection" id="id_news_list">
+
+		<!-- <li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/onion_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span class="news_title">High price anomaly likely in Onion at Bangalore   </span>
+					<br>
+
+					
+				</div>
+
+				<div class="col s2">
+					<a href="/agri_req/landing_page/Onion" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+
+
+				</div>
+				<div class="col s12">
+					
+					<br>
+
+						<ul>
+							<li class="rel_news_list">
+								<span class="rel_news_title">Veggie prices hit the roof as floods wreak havoc on farms</span><a href="https://www.newindianexpress.com/states/odisha/2020/aug/31/veggie-prices-hit-the-roof-as-floods-wreak-havoc-on-farms-2190566.html" class="" target="_blank">
+						<i class="material-icons" style="font-size: 15px">launch</i>
+					</a>
+							</li>
+						
+						</ul>
+					
+				</div>
+					
+			</div>
+		</li>
+
+
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/masur_dal_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span class="news_title"> <span class="news_mandi_name">Siliguri</span> (West Bengal)  is the most <span class="news_kw">volatile</span> mandis for Masur dal </span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="#volatileModal"  class="secondary-content modal-trigger" data-toggle="modal">
+						<i class="material-icons">launch</i>
+					</a>
+					
+				</div>
+			</div>
+		</li>
+
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/tomato_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span>2020-08-31</span>
+					<br>
+					
+					<span class="news_title">Sudden rise in tomato prices, farmers blame rain and disruptions due to Covid-19</span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="https://indianexpress.com/article/india/sudden-rise-in-tomato-prices-farmers-blame-rain-and-disruptions-due-to-covid-19-6577905/" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+				</div>
+			</div>
+		</li>
+		
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/onion_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span>2020-08-31</span>
+					<br>
+					<span class="news_title">Veggie prices hit the roof as floods wreak havoc on farms</span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="https://www.newindianexpress.com/states/odisha/2020/aug/31/veggie-prices-hit-the-roof-as-floods-wreak-havoc-on-farms-2190566.html" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+				</div>
+			</div>
+		</li>
+
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/tomato_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+
+					
+					<span>2020-08-30</span>
+					<br>
+					<span class="news_title">Veggie prices fluctuate as supply issues persist</span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="https://www.newindianexpress.com/states/odisha/2020/aug/31/veggie-prices-hit-the-roof-as-floods-wreak-havoc-on-farms-2190566.html" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+				</div>
+			</div>
+		</li>
+
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/suger_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span>2020-08-28</span>
+					<br>
+					<span class="news_title">With Onam demand, Marayur jaggery price touches record high</span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="https://www.thehindu.com/news/national/kerala/with-onam-demand-marayur-jaggery-price-touches-record-high/article32469576.ece" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+				</div>
+			</div>
+		</li>
+
+		<li class="collection-item">
+			<div class="row" style="margin-bottom: 0px">
+				<div class="col s2">
+					<span style="float: left;"> <img class="responsive-img" style="height: 40px" src="{% static 'home/img/rice_clip.png'%}" alt=""></span>
+				</div>
+				<div class="col s8">
+					<span>2020-08-29</span>
+					<br>
+					<span class="news_title">Area under Kharif crop rises to record 1,082 lakh </span>
+					
+				</div>
+
+				<div class="col s2">
+					<a href="https://indianexpress.com/article/india/area-under-kharif-crop-rises-to-record-1082-lakh-ha-6574408/" class="secondary-content" target="_blank">
+						<i class="material-icons">launch</i>
+					</a>
+				</div>
+			</div>
+		</li> -->
+
+
+
+
+
+	</ul>
+
+	<a href="/agri_req/news_feed_page_past"><span>See past news feed</span></a>
+
+
+
+
+</div>

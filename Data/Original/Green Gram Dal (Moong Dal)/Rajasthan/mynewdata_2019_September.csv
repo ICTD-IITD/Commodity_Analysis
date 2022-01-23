@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1e83ccf19434e3cd4f4b591ea23d9970af2729c63b665c08e358c50309eba0f
+size 378
+=======
+Market,Arrival Date,Arrivals (Tonnes),Variety,Minimum Price(Rs./Quintal),Maximum Price(Rs./Quintal),Modal Price(Rs./Quintal),
+Jaitaran,17/09/2019,1.8,Green Gram Dal,5700,5785,5720,
+,26/09/2019,51,Green Gram Dal,4200,5800,5350,
+Pipar City,08/09/2019,1.9,Green Gram Dal,5000,5500,5200,
+,12/09/2019,0.7,Green Gram Dal,5200,5500,5300,
+,17/09/2019,2.4,Green Gram Dal,5000,5200,5100,
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

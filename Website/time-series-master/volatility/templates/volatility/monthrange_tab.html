@@ -1,0 +1,42 @@
+{% load static %}
+
+<div>
+	<!-- form -->
+	<div class="form-group row">
+		<div class="col-3">
+			<label for="commodity_select_monthrange" class="col-12 col-form-label">Commodity</label>
+			<div class="col-12">
+
+				<select class="form-control" id="commodity_select_monthrange">
+					{% for commodity in commodity_list%}
+					{{commodity}}
+					<option value="{{commodity}}">{{commodity}}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+
+
+		<div class="col-3">
+			<label for="" class="col-12 col-form-label">First Month</label>
+			<div class="col-12">
+				<input class="datepicker" id="month1" autocomplete="off">
+			</div>
+		</div>
+
+		<div class="col-3">
+			<label for="" class="col-12 col-form-label">Second Month</label>
+			<div class="col-12">
+				<input class="datepicker" id="month2" autocomplete="off">
+			</div>
+		</div>
+	</div>
+	<!-- form end -->
+
+	<div class="row">
+		<div class="col-12" id="volatility_plot">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="{% static 'volatility/js/monthrange_tab.js'%}"></script>

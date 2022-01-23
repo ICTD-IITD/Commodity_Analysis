@@ -1,0 +1,108 @@
+<div class="col s12" style=""> 
+	<div class="divider"></div>
+	<div class="section">
+		<!-- <h5>Last 3 year</h5> -->
+
+		<span class="grey-text text-darken-2"> 
+			<blockquote>Plot below shows the Mandi price vs Retail Price trends for last 3 years <br> Shows how the Retail price changes with change in mandi price <br> Generally, Retail price follows the trend of Mandi price
+
+			</blockquote>
+		</span>
+		<br>
+		<br>
+
+		<div class="grid">
+
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field">
+					<select class="center-align" id="id_select_state1_mandi_retail">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" selected>Maharashtra</option>
+						<option value="2">Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 1</label>
+				</div>
+
+			</div>
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state2_mandi_retail">
+						<option value="" disabled selected>Select state</option>
+						<option value="1" >Maharashtra</option>
+						<option value="2" selected>Karnataka</option>
+						<option value="3">NCT of Delhi</option>
+					</select>
+					<label>Select State 2</label>
+				</div>
+
+			</div>
+			<div class="cell state_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_state3_mandi_retail">
+						<option value="" disabled selected>Select state</option>
+						<option value="1">Maharashtra</option>
+						<option value="2" >Karnataka</option>
+						<option value="3" selected>NCT of Delhi</option>
+					</select>
+					<label>Select State 3</label>
+				</div>
+
+			</div>
+
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi1_mandi_retail">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" selected>Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" >Azadpur</option>
+					</select>
+					<label>Select Mandi 1</label>
+				</div>
+
+			</div>
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi2_mandi_retail">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1">Lasalgaon</option>
+						<option value="2" selected>Bangalore</option>
+						<option value="3">Azadpur</option>
+					</select>
+					<label>Select Mandi 2</label>
+				</div>
+			</div>
+
+			<div class="cell mandi_select" style="height: 70px">
+				<div class="input-field ">
+					<select id="id_select_mandi3_mandi_retail">
+						<option value="" disabled selected>Select mandi</option>
+						<option value="1" >Lasalgaon</option>
+						<option value="2">Bangalore</option>
+						<option value="3" selected>Azadpur</option>
+					</select>
+					<label>Select Mandi 3</label>
+				</div>
+			</div>
+
+
+			<div class="cell chart_cell">
+				<canvas id="mandi_vs_retail_chart11" width="" height=""></canvas>
+
+
+
+			</div>
+			<div class="cell chart_cell">
+				<canvas id="mandi_vs_retail_chart12" width="" height=""></canvas>
+
+			</div>
+			<div class="cell chart_cell right-align">
+				<canvas id="mandi_vs_retail_chart13" width="" height=""></canvas>
+				<button class="waves-effect waves-light btn" onclick=requestNewsModal("mandi_retail")>See news</button>
+			</div>
+			
+		</div>
+
+	</div>
+</div>

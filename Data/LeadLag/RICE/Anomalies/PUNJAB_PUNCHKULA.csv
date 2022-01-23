@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9b307e07311602349cc5184934ec7a81119dfa64adf8e87a14455d13c75c7b4
+size 558
+=======
+STARTDATE,ENDDATE,lastMonth,lastYear,SameMonth,MAXMINRATIO
+2016-01-29,2016-03-12,,,Normal,1.0
+2017-01-08,2017-02-20,Normal,Normal,Normal,1.0
+2017-10-01,2017-11-13,Normal,Normal,Normal,1.0
+2018-03-04,2018-04-16,Anomaly,Anomaly,Anomaly,1.5909090909090908
+2018-03-18,2018-04-30,Anomaly,Anomaly,Anomaly,1.5909090909090908
+2018-07-15,2018-08-27,Anomaly,Anomaly,Anomaly,1.4
+2018-08-05,2018-09-17,Anomaly,Anomaly,Anomaly,1.4
+2019-02-17,2019-04-01,Normal,Normal,Normal,1.0
+2019-09-08,2019-10-21,Normal,Normal,Normal,1.0
+2020-04-05,2020-05-18,Normal,Normal,Normal,1.0
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

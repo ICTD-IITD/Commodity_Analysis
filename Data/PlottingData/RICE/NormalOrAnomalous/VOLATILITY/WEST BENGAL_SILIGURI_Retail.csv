@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:e38a6f40e07706f2fc878f444a6335d9fcef321e7a8e8a1d267438962eec55b4
+size 2596
+=======
+DATE,VOLATILITY,SAMEMONTH,LASTMONTH,LASTYEAR
+2016-01-01,0.030549940302436407,Anomaly,Normal,Normal
+2016-02-01,0.0,Normal,Normal,Normal
+2016-03-01,0.02643290785135612,Anomaly,Anomaly,Normal
+2016-04-01,0.0,Normal,Normal,Normal
+2016-05-01,0.0,Normal,Normal,Normal
+2016-06-01,0.0,Normal,Normal,Normal
+2016-07-01,0.0,Normal,Normal,Normal
+2016-08-01,0.0,Normal,Normal,Normal
+2016-09-01,0.0,Normal,Normal,Normal
+2016-10-01,0.0,Normal,Normal,Normal
+2016-11-01,0.0,Normal,Normal,Normal
+2016-12-01,0.0,Normal,Normal,Normal
+2017-01-01,0.0,Normal,Normal,Normal
+2017-02-01,0.0,Normal,Normal,Normal
+2017-03-01,0.0,Normal,Normal,Normal
+2017-04-01,0.0,Normal,Normal,Normal
+2017-05-01,0.0,Normal,Normal,Normal
+2017-06-01,0.0,Normal,Normal,Normal
+2017-07-01,0.035029604967717606,Anomaly,Normal,Anomaly
+2017-08-01,0.03554478294855894,Anomaly,Anomaly,Anomaly
+2017-09-01,0.01203663024178953,Normal,Normal,Normal
+2017-10-01,0.020636375084135274,Anomaly,Normal,Anomaly
+2017-11-01,0.013196237655561034,Normal,Normal,Normal
+2017-12-01,0.0,Normal,Normal,Normal
+2018-01-01,0.015046344559458531,Normal,Normal,Normal
+2018-02-01,0.02193383015407436,Anomaly,Anomaly,Anomaly
+2018-03-01,0.02594112286964446,Normal,Anomaly,Anomaly
+2018-04-01,0.0664262834771667,Anomaly,Normal,Anomaly
+2018-05-01,0.1642845798491386,Anomaly,Anomaly,Anomaly
+2018-06-01,0.044347710618427065,Anomaly,Anomaly,Anomaly
+2018-07-01,0.0,Normal,Normal,Normal
+2018-08-01,0.0,Normal,Normal,Normal
+2018-09-01,9.434791306192282e-05,Normal,Normal,Normal
+2018-10-01,0.00030469734278992946,Normal,Normal,Normal
+2018-11-01,0.0008915024083081893,Normal,Normal,Normal
+2018-12-01,0.005624628762968047,Normal,Normal,Normal
+2019-01-01,0.1210339760910026,Anomaly,Anomaly,Anomaly
+2019-02-01,0.018104167228652004,Anomaly,Normal,Normal
+2019-03-01,0.0100307114700941,Normal,Normal,Normal
+2019-04-01,0.013719084848744432,Normal,Normal,Normal
+2019-05-01,0.036566450620662515,Anomaly,Anomaly,Anomaly
+2019-06-01,0.02196767423409281,Anomaly,Anomaly,Anomaly
+2019-07-01,0.023343272846124957,Anomaly,Anomaly,Normal
+2019-08-01,0.0,Normal,Normal,Normal
+2019-09-01,0.0,Normal,Normal,Normal
+2019-10-01,0.01567755199222395,Normal,Normal,Normal
+2019-11-01,0.013668454238786406,Normal,Normal,Anomaly
+2019-12-01,0.0,Normal,Normal,Normal
+2020-01-01,0.013245566066408964,Normal,Normal,Normal
+2020-02-01,0.0,Normal,Normal,Normal
+2020-03-01,0.00991054483296444,Normal,Normal,Normal
+2020-04-01,0.010864651500193893,Normal,Normal,Normal
+2020-05-01,0.0,Normal,Normal,Normal
+2020-06-01,0.0,Normal,Normal,Normal
+2020-07-01,0.0,Normal,Normal,Normal
+2020-08-01,0.0025716027780939683,Normal,Normal,Normal
+>>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

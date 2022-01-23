@@ -1,0 +1,29 @@
+Anomally Files save location:
+ONION ../Data/PlottingData/ONION/Anomaly/SameMonth/KARNATAKA_DAVANGERE_Arrival.csv
+
+
+checkPeriodsUsingSameMonth.py
+../Data/PlottingData/GREEN GRAM DAL (MOONG DAL)/NormalOrAnomalous/SameMonth/ODISHA_SAMBALPUR_Retail.csv
+
+
+checkPeriodsUsingLastMonth.py
+../Data/PlottingData/GREEN GRAM DAL (MOONG DAL)/NormalOrAnomalous/LastMonth/ODISHA_SAMBALPUR_Retail.csv
+
+
+checkPeriodsUsingLastYear.py
+../Data/PlottingData/GREEN GRAM DAL (MOONG DAL)/NormalOrAnomalous/LastYear/ODISHA_SAMBALPUR_Retail.csv
+
+
+checkPeriodsUsingMaxMinRatio.py
+../Data/PlottingData/GREEN GRAM DAL (MOONG DAL)/NormalOrAnomalous/MaxMinRatio/ANDHRA PRADESH_TIRUPATHI_Retail.csv
+
+
+checkPeriodsMergeFiles.py
+../Data/PlottingData/GREEN GRAM DAL (MOONG DAL)/NormalOrAnomalous/Combined/ANDHRA PRADESH_HYDERABAD_Price.csv
+
+
+f_4_findAnomalyByDispersion.py
+../Data/PlottingData/ONION/Dispersion/showAnomalies_dispersion_Price.csv
+../Data/PlottingData/ONION/Dispersion/showAnomalies_dispersion_Retail.csv
+../Data/PlottingData/mostDispersedCommoditiesPrice.csv
+../Data/PlottingData/mostDispersedCommoditiesRetail.csv

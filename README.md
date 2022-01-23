@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Price Forecasting and Anomaly Detection for Agricultural commodities in India
 
 Price forecasting and anomaly detection techniques for agricultural commodities enable producers, farmer cooperatives and government bodies to make informed decisions like the right crop price and whether to sell the crop now or hold it for sometime. However, price forecasting is a challenging task considering price fluctuations and missing data for many successive days. We propose a forecasting system using multivariate LSTM, which considers the historical agricultural prices and arrival data of different mandis and centres. Anomaly detection in crops price and arrival amount is also a demanding task considering the factors that can cause an anomaly like weather, malpractices in the agricultural markets, transport and government policies. We propose an anomaly detection framework that uses machine learning and rule-based approaches to predict anomalies in the forecasted mandi price, retail price, and arrival amount. We also propose a method for associating news reports to the anomalies, which can then be used to check when the news articles about the anomaly are published and the effect of the published news article on the price of the crop. We built a dashboard that shows the original and forecasted data, the anomalies, and the corresponding news articles for different commodities. We provide an in-depth analysis of our dashboard for various events. Our dataset comprises of time series of wholesale prices and arrival volumes of various commodities at mandi levels, retail prices at city level centres and the news articles used to mark the anomalies. Our results are encouraging and point towards building a system for agricultural commodities that can be used to detect anomalies and help farmer organisations make informed decisions.
@@ -149,4 +147,3 @@ this script generate news feed for following cases:
 	-- mandi is anomalous and we have corresponding news article
 	-- mandi is anomalous and we do have corresponding news article
 	-- mandi is not anomalous and we have news article
->>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

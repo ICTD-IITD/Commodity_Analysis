@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # liveSystem.py
 This script execute all the functions for the live system. It call functions for data crawling, preprocessing, time series forecasting, anomaly detection and news feed generation
-=======
->>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979
     
 # 1. Data Crawling
 Following scripts are used to download the wholesale and retail data from different sources
@@ -62,7 +59,6 @@ Comparing the results of above seven methods, we conclude multivariate LSTM as t
 # 4. Anomaly Detection
 
 
-<<<<<<< HEAD
 ## f_4_1_checkPeriodsUsingSameMonth.py
 This script is used to find anomailes using same month price values of other mandis of same month
 
@@ -100,58 +96,8 @@ find anomalous mandis and centres
 find anomalous commodities
 
 
-=======
-f_4_1_checkPeriodsUsingSameMonth.py
-
-f_4_2_checkPeriodsUsingLastMonth.py
-
-f_4_3_checkPeriodsUsingLastYear.py
-
-f_4_4_checkPeriodsUsingMaxMinRatio.py
-
-f_4_5_checkPeriodsMergeFiles.py
-
-f_4_6_checkPeriodsMarkPastAnomalies.py
-
-f_4_7_checkPeriodsForecastedMonth.py
-
-f_4_8_anomalyDetectionML.py
-
-
-
-
-## 4_findAnomalyBySameMonth.py
-This script is used to find anomailes using same month price values of other mandis of same month
-
-## 4_findAnomalyByLastMonth.py
-This script is used to find anomailes using same month price values of other mandis of last month
-
-## 4_findAnomalyByLastYear.py
-This script is used to find anomailes using same month price values of other mandis of same month in previous years
-
-## 4_anomalyDetectionML.py
-This script is used to find anomalies using Machine learning methods
-
-## 4_volatility.py
-This script is used to find anomalies using volatility
-
-## 4_dispersion.py
-This script is used to find anomalies using dispersion
-
-## 4_checkPeriodsMergeFiles.py
-This script combines the files generated for different anomalies methods (ml, same month, last month, last year)
-
-## 4_findAnomalousMandisCentres.py
-This script is used to find anomalous mandis and centres
-
-## 4_findAnomalousCommodities.py
-This script is used to find anomalous commodities
->>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979
-
-
 # 5. News Feed
 
-<<<<<<< HEAD
 ## f_5_1_fetchArticles
 This script is used to extract news articles
 
@@ -163,17 +109,9 @@ this script generate news feed for following cases:
 	-- mandi is anomalous and we have corresponding news article
 	-- mandi is anomalous and we do have corresponding news article
 	-- mandi is not anomalous and we have news article
-=======
+
 ## 5_extractNewsArticles.py
 This script is used to extract news articles
 
 ## 5_generateNewsFeed.py
 This script is used to rank news articles, tag news articles, generate volatility news, price and retail news. This script import functions from following files:
-
-
-## liveSystem.py
-This script execute all the functions for the live system. It call functions for data crawling, preprocessing, time series forecasting, anomaly detection and news feed generation
-
-## packagesLoader.py
-load all the required package
->>>>>>> 6ac9248b3ef33a88bcb4b748e11d3743f40f9979

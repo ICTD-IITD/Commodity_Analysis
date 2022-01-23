@@ -109,9 +109,3 @@ this script generate news feed for following cases:
 	-- mandi is anomalous and we have corresponding news article
 	-- mandi is anomalous and we do have corresponding news article
 	-- mandi is not anomalous and we have news article
-
-## 5_extractNewsArticles.py
-This script is used to extract news articles
-
-## 5_generateNewsFeed.py
-This script is used to rank news articles, tag news articles, generate volatility news, price and retail news. This script import functions from following files:

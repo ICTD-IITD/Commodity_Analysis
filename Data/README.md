@@ -5,9 +5,6 @@ This folder contains some important csv files which are to be used by many scrip
 ## LeadLag 
 This folder contains the data and code about the lead lag analysis
 
-## News
-This information contains the news articles 
-
 ## Original
 This folder contains all the wholesale and retail data in raw form
 

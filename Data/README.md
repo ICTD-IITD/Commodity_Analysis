@@ -16,3 +16,6 @@ This folder contains the data which is used for plotting. It has data original d
 
 ## Processed
 This folder contains all the wholesale and retail data in processed form
+
+## NEWSFEED
+This folder contains the data for the news feed. It has news data for each commodity 
